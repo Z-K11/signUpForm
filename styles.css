@@ -13,7 +13,14 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Iosevka Charon Mono';
+    src: url('IosevkaCharonMono-Light.woff2') format('woff2'),
+        url('IosevkaCharonMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -65,4 +72,21 @@ body
 {
     font-size: 1.1em;
     padding: 7% 5%;
+}
+.description
+{
+    margin-bottom:10%;
+}.name,.contact-body
+{
+    
+    display: flex;
+}
+.name label
+{
+    font-family: 'Isoveka Charon Mono',monospace;
+    font-weight: 300;
+}
+.main-body
+{
+    background-color: white;
 }

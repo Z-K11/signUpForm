@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="main-container">
         <div class="image-section">
-            <img src="media/imgs/mike-perez-aslf3jEpDBI-unsplash.jpg" alt="Image by mike-perez taken from unspalsh" >
+            <img src="media/imgs/mike-perez-aslf3jEpDBI-unsplash.jpg" alt="Image by mike-perez taken from unspalsh">
             <div class="logo-background"><img src="media/imgs/odin-logo.png" alt="The odin project logo"></div>
         </div>
         <div class="formBody">
             <form action="" method="post">
-                <p class="description">
-                    This is not a real online service you know you need something 
-                    like this in your life to help you realize your deepest dreams.
-                </p>
-                <h3>Sign up now to Get Started.</h3>
-                <p>You <em>know</em> you want to.</p>
+                <div class="description">
+                    <p>
+                        This is not a real online service you know you need something
+                        like this in your life to help you realize your deepest dreams.
+                    </p>
+                    <h3>Sign up now to Get Started.</h3>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <ul class="main-body">
+                    <li class="name">
+                        <div class="firstName">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div class="lastName">
+                            <label for="secondName">Second Name</label>
+                            <input type="text" id="secondName" name="secondName">
+                        </div>
+                    </li>
+                    <li class="contact-body">
+                        <lable for="emailId">Email</lable>
+                        <input type="email" id="emailId" name="email">
+                        <lable for="contact">Phone Number</lable>
+                        <input type="tel" id="contact" name="phoneNumber">
+                    </li>
+                </ul>
             </form>
         </div>
     </div>
 </body>
+
 </html>

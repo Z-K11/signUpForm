@@ -72,26 +72,41 @@ body
 {
     font-size: 1.1em;
     padding: 7% 5%;
+    height: 100vh;
+}
+form
+{
+    height: 100%;
 }
 .description
 {
     margin-bottom:10%;
-}.name,.contact-body
-{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.name div,.contact-body div
-{
-    width: 40%;
-}
-.name label
-{
-    font-family: 'Isoveka Charon Mono',monospace;
-    font-weight: 300;
 }
 .main-body
 {
+    
+    display: flex;
+    gap : 10%;
     background-color: white;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    list-style: none;
+    padding: 10%;;
+}
+.main-body li
+{
+    display: flex;
+    justify-content: flex-start;
+    gap:10%;
+}
+li div
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-family: 'Isoveka Charon Mono',monospace;
+    font-weight: 300;
 }

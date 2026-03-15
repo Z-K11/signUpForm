@@ -21,19 +21,13 @@
 }
 body
 {
-    padding: 0 15%;
+    padding: 0 10%;
     font-size: 16px;
+    font-family: 'Isoveka Charon Mono',monospace;
 }
-.image-section
+.formBody
 {
-    height: 100vh;
-    width: 30vw;
-}
-.image-section>img
-{
-    object-fit: fill;
-    height: inherit;
-    width: inherit;
+    background-color: rgb(245, 240, 240);
 }
 .main-container
 {
@@ -41,8 +35,34 @@ body
     flex-direction: row;
     justify-content: flex-start;
 }
+.image-section
+{
+    height: 100vh;
+    width: 30vw;
+    position:relative;
+}
+.image-section>img
+{
+    object-fit: fill;
+    height: inherit;
+    width: inherit;
+}
+.image-section .logo-background
+{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    background: rgba(0,0,0,85%);
+    justify-content: center;
+}
+.logo-background>img
+{
+    height: 15%;
+    width: 100px;
+}
 .formBody
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 7% 5%;
 }

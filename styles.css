@@ -80,6 +80,11 @@ body
 {
     
     display: flex;
+    justify-content: space-between;
+}
+.name div,.contact-body div
+{
+    width: 40%;
 }
 .name label
 {

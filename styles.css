@@ -78,18 +78,20 @@ body {
     font-size: 1.1em;
     padding: 7% 0;
     height: 100vh;
-    font-weight: bold;
 }
 
 form {
     height: 100%;
+
 }
 
 .description {
     margin-bottom: 5%;
     padding: 0 5%;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     height: 20%;
+    font-weight: bold;
+    word-spacing: -2px;
 }
 
 .main-body,
@@ -139,5 +141,40 @@ input {
     width: 23rem;
     border: 0.1rem solid grey;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    outline: none;
 
+}
+input[type="password"]:invalid
+{
+    border-color: red;
+}
+input:focus,input[type="password"]:focus
+{
+    border-color: rgba(42, 119, 221, 0.808);
+    border-width: 0.3rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.274);
+}
+button
+{
+    width: 23rem;
+    margin: 3.5rem 4rem;
+    padding: 1.5% 0;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+
+}
+button + p
+{
+    margin:-1rem 4rem;
+    font-size: 1.5rem;
+    word-spacing: -0.2rem;
+}
+a:is(:link ,:visited)
+{
+    text-decoration: none;
+    color: inherit;
 }

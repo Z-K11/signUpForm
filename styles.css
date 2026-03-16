@@ -35,7 +35,7 @@
 
 body {
     padding: 0 10%;
-    font-family: 'Isoveka Charon Mono', monospace;
+    font-family: 'Iosveka Charon Mono', monospace;
 }
 
 .formBody {
@@ -129,7 +129,7 @@ li div {
 }
 
 label {
-    font-family: 'Isoveka Charon Mono', monospace;
+    font-family: 'Iosveka Charon Mono', monospace;
     font-weight: 300;
     font-size: 1.4rem;
     color: rgba(0, 0, 0, 80%)
